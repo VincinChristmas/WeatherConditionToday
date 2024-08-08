@@ -25,14 +25,14 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=32.0617&longitude=118.777
         let lowestTemp = findLowestTemperature(current24Hours)
         lowestTemperatures.push(` ${lowestTemp}${data.current_units.temperature_2m} `)
       }
-    document.querySelector('.lows').innerText = ` ${lowestTemperatures.join('')} `
+    document.querySelector('.lows').innerText = `${lowestTemperatures.join('  ')}`
 
     for (let i = 0; i < temperatures.length; i += 24) {
         let current24Hours = temperatures.slice(i, i + 24)
         let highestTemp = findHighestTemperature(current24Hours)
         highestTemperatures.push(` ${highestTemp}${data.current_units.temperature_2m} `)
       }
-    document.querySelector('.highs').innerText = `${highestTemperatures.join('')}`
+    document.querySelector('.highs').innerText = `${highestTemperatures.join('  ')}`
     
 })
 .catch(err => {

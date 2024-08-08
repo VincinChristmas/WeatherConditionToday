@@ -1,3 +1,5 @@
 .lows {
     background: rgba(79, 79, 227, 0.621);
+    max-width: = 100%;
+    border: 1px solid yellow;
 }
