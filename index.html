@@ -2,19 +2,32 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
+    	<meta name="myweatherapp" content="seven day temperatures">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="weather.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="main.css">
-		<title>Title in the tab</title>
+		<title>7 Day Weather App</title>
 
-		<!-- external CSS link -->
 		
 	<body>
         <main>
 		<h1 class="weatherTitle">Today's Weather</h1>
+
+		<section class="dataBlock">
+		<ul class="daysOfTheWeek">
+			<li class="day1"></li>
+			<li class="day2"></li>
+			<li class="day3"></li>
+			<li class="day4"></li>
+			<li class="day5"></li>
+			<li class="day6"></li>
+			<li class="day7"></li>
+		</ul>
+
 		<ul class="lowestWeather">
 			<li class="lowOne"></li>
 			<li class="lowTwo"></li>
@@ -34,6 +47,7 @@
 			<li class="highSix"></li>
 			<li class="highSeven"></li>
 		</ul>
+		</section>
 
 		</main>
 

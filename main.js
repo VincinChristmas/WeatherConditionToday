@@ -1,4 +1,26 @@
-//document.querySelector('button').addEventListener('click', getFact);
+function getNext7DaysOfWeek() {
+  const today = new Date();
+  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const result = [];
+
+  for (let i = 0; i < 7; i++) {
+    const date = new Date(today);
+    date.setDate(today.getDate() + i);
+    result.push(daysOfWeek[date.getDay()]);
+  }
+document.querySelector('.day1').innerText = `${result[0]}`
+document.querySelector('.day2').innerText = `${result[1]}`
+document.querySelector('.day3').innerText = `${result[2]}`
+document.querySelector('.day4').innerText = `${result[3]}`
+document.querySelector('.day5').innerText = `${result[4]}`
+document.querySelector('.day6').innerText = `${result[5]}`
+document.querySelector('.day7').innerText = `${result[6]}`
+
+}
+
+getNext7DaysOfWeek()
+
+
 
 function getWeather(){
 
