@@ -102,19 +102,48 @@ main {
   }
 
 
+  @media all and (min-width: 700px) {
+    main {
+      margin-top: 8rem;
+      border: 2px solid rgba(171, 166, 234, 0.184);
+      width: 100%;
+    }
+
+    .weatherTitle {
+      text-align: center;
+      color: rgba(245, 245, 245, 0.808);
+      letter-spacing: 0.646rem;
+      font-size: 2.5rem;
+      margin-bottom: 3.3rem;
+    }
+    
+    .dataBlock {
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
 
 
-/*
-  main {
-    border: 2px solid rgba(171, 166, 234, 0.184);
-    margin-top: 8rem;
+    .daysOfTheWeek, .lowestWeather, .highestWeather{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 1.435rem;
+      margin-bottom: 2rem;
+    }
+
+    .lowestWeather {
+      
+    }
+
+    .highestWeather {
+      
+    }
+  
   }
 
-  .weatherTitle {
-    text-align: center;
-    color: rgba(245, 245, 245, 0.808);
-    letter-spacing: 0.646rem;
-  }
+  /*
+
 
 
 ul {
@@ -149,4 +178,5 @@ ul {
     padding-top: 3rem;
     border: 2px solid rgba(171, 166, 234, 0.184);
 }
-*/
+
+  */
