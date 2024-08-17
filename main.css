@@ -103,8 +103,9 @@ main {
 
 
   @media all and (min-width: 700px) {
+
     main {
-      margin-top: 8rem;
+      margin-top: 7rem;
       border: 2px solid rgba(171, 166, 234, 0.184);
       width: 100%;
     }
@@ -132,51 +133,6 @@ main {
       margin-bottom: 2rem;
     }
 
-    .lowestWeather {
-      
-    }
-
-    .highestWeather {
-      
-    }
-  
   }
 
-  /*
-
-
-
-ul {
-    list-style: none;
-    color: rgba(26, 25, 25);
-}
-
-.lowestWeather {
-    display: flex;
-    border: 2px solid rgba(171, 166, 234, 0.184);
-    padding-left: 0;
-}
-
-.lowestWeather li {
-    width: 5rem;
-    height: 7rem;
-    border: 2px solid rgba(171, 166, 234, 0.184);
-    text-align: center;
-    padding-top: 3rem;
-}
-
-.highestWeather {
-    display: flex;
-    border: 2px solid rgba(171, 166, 234, 0.184);
-    padding-left: 0;
-}
-
-.highestWeather li {
-    width: 5rem;
-    height: 7rem;
-    text-align: center;
-    padding-top: 3rem;
-    border: 2px solid rgba(171, 166, 234, 0.184);
-}
-
-  */
+  
