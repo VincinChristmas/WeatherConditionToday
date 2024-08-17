@@ -23,7 +23,7 @@
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
-    background: url(/weathebackground.webp);
+    background: url(weathebackground.webp);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -36,7 +36,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url(/weathebackground.webp);
+    background-image: url(weathebackground.webp);
   }
 
   
@@ -68,7 +68,12 @@
 
 main {
   width: 23.4375rem;
-  margin-top: 5rem;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  margin-top: 3.5rem;
+  border: 2px solid rgba(171, 166, 234, 0.184);
 }
 
 .dataBlock {
@@ -83,10 +88,18 @@ main {
     text-align: center;
     margin-bottom: 1rem;
     color: rgba(245, 245, 245, 0.808);
-    letter-spacing: 0.346rem;
+    letter-spacing: 0.400rem;
     font-size: 1.765rem;
   }
 
+  .daysOfTheWeek li, .lowestWeather li, .highestWeather li {
+    margin-bottom: 1.643rem;
+    color: rgb(247, 231, 89);
+  }
+
+  .daysOfTheWeek li {
+    color: rgba(245, 245, 245, 0.808);
+  }
 
 
 
