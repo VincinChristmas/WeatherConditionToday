@@ -17,7 +17,7 @@
 
 # MOBILE
 <p>the temperature on the left is the lowest temperature. The temperature on the right is the hight temperature.</p>
-![](/mobileweather.png)
+![](mobileweather.png)
 
 
 
