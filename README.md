@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 <h1>My Weather app</h1>
-![Weather app logo](weather.png)
+![Weather app logo](/weather.png)
 <p>this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
 <p>Flex-box is used for some layout features.</p>
 </div>
@@ -13,11 +13,11 @@
 
 # DESKTOP
 <p>the temperature on top is the lowest temperature. The temperature on the bottom is the highest temperature.</p>
-![Weather app logo](desktopweather.png)
+![Weather app logo](/desktopweather.png)
 
 # MOBILE
 <p>the temperature on the left is the lowest temperature. The temperature on the right is the hight temperature.</p>
-![Weather app logo](mobileweather.png)
+![Weather app logo](/mobileweather.png)
 
 
 
