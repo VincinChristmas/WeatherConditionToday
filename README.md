@@ -1,6 +1,6 @@
 
-<h1 style="text-align: center;">My Weather app</h1>
-<img src="weather.png" style="text-align: center;" width: 30%;>
+<h1 style="text-align: center">My Weather app</h1>
+<img src="weather.png" style="text-align: center; width: 30%;" >
 <p style="text-align: center;">this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
 <p style="text-align: center;">Flex-box is used for some layout features.</p>
 
