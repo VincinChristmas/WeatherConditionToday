@@ -1,9 +1,9 @@
-<div style="text-align: center;">
-<h1>My Weather app</h1>
-<img src="weather.png">
-<p>this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
-<p>Flex-box is used for some layout features.</p>
-</div>
+
+<h1 style="text-align: center;">My Weather app</h1>
+<img src="weather.png" style="text-align: center;" width: 30%;>
+<p style="text-align: center;">this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
+<p style="text-align: center;">Flex-box is used for some layout features.</p>
+
 
 # [This is the free API that I used from open-meteo](https://open-meteo.com/)
 
@@ -13,11 +13,11 @@
 
 # DESKTOP
 <p>the temperature on top is the lowest temperature. The temperature on the bottom is the highest temperature.</p>
-<img src="desktopweather.png">
+<img src="desktopweather.png" width: 30%;>
 
 # MOBILE
 <p>the temperature on the left is the lowest temperature. The temperature on the right is the hight temperature.</p>
-<img src="mobileweather.png">
+<img src="mobileweather.png" width: 30%;>
 
 
 
