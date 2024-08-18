@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 <h1>My Weather app</h1>
-![](/weather.png)
+<img src="weather.png">
 <p>this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
 <p>Flex-box is used for some layout features.</p>
 </div>
@@ -13,11 +13,11 @@
 
 # DESKTOP
 <p>the temperature on top is the lowest temperature. The temperature on the bottom is the highest temperature.</p>
-![](/desktopweather.png)
+<img src="desktopweather.png">
 
 # MOBILE
 <p>the temperature on the left is the lowest temperature. The temperature on the right is the hight temperature.</p>
-<img src="/mobileweather.png">
+<img src="mobileweather.png">
 
 
 
