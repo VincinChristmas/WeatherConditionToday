@@ -1,6 +1,9 @@
 
-<h1 style="text-align: center">My Weather app</h1>
-<img src="weather.png" style="text-align: center width: 30%;" >
+<h1 style="text-align: center;">My Weather app</h1>
+<img style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;" src="weather.png">
 <p style="text-align: center;">this is a app that I made using some basic HTML, CSS, and JavaScript.</p>
 <p style="text-align: center;">Flex-box is used for some layout features.</p>
 
@@ -13,11 +16,17 @@
 
 # DESKTOP
 <p>the temperature on top is the lowest temperature. The temperature on the bottom is the highest temperature.</p>
-<img src="desktopweather.png" width: 30%;>
+<img style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;" src="desktopweather.png" width: 30%;>
 
 # MOBILE
 <p>the temperature on the left is the lowest temperature. The temperature on the right is the hight temperature.</p>
-<img src="mobileweather.png" width: 30%;>
+<img style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;" src="mobileweather.png" width: 30%;>
 
 
 
